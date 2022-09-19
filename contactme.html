@@ -2,6 +2,20 @@
 <html>
 <link rel="icon" href="icon.png">
 <style>
+.bg {
+
+  background-image: url("iconani.gif");
+
+
+  height: 120%; 
+  width: 150%;
+
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index:-1;
+}
 .button {margin: 6px 6px;}
 div.static {
   left: 30px;
@@ -9,17 +23,19 @@ div.static {
 </style>
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Andrew Wise</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
 <h4 style="font-family:'Arial', serif;color:white;"><u>CONTACT ME</u></h4>
-<p style="font-family:'Arial', serif;color:white;">Gmail:</p>
+<img class="gmaillogo" src="gmaillogo.png" alt="Codes" width="100" height="70">
+<p class="contact" style="font-family:'Arial', serif;color:white;">● awise23@basecampcodingacademy.org</p>
 <div class="static">
 <button onclick="document.location='index.html'" class="glow-on-hover" type="button">BACK ⏎</button>
 </div>
+<div class="bg"></div>
 </body>
 
 </html>

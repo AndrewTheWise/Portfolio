@@ -1,5 +1,7 @@
 html,
 body {
+
+    <!-- overflow-x: hidden; -->
     margin: 0;
     padding: 0;
     width: 100%;
@@ -109,6 +111,24 @@ p {
   font-size: 18px;
  }
 
+.contact {
+  word-break: break-all; 
+  position: absolute;
+  top: 34%;
+  width: 100%;
+  left: 5%;
+  text-align: left;
+  font-size: 25px;
+}
+
+.gmaillogo {
+  z-index: 0;
+  position: absolute;
+  top: 25%;
+  left: 9%;
+  text-align: left;
+}
+
 .skills {
   word-break: break-all; 
   position: absolute;
@@ -132,6 +152,31 @@ img {
   z-index: 0;
   position: absolute;
   top: 50%;
+  left: 5%;
+  text-align: left;
+
+}
+
+.project1 {
+  z-index: 0;
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  text-align: left;
+
+}
+.project2 {
+  z-index: 0;
+  position: absolute;
+  top: 85%;
+  left: 5%;
+  text-align: left;
+
+}
+.project3 {
+  z-index: 0;
+  position: absolute;
+  top: 140%;
   left: 5%;
   text-align: left;
 
