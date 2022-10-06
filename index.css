@@ -86,6 +86,25 @@ body {
     margin-bottom: 5px;
 }
 }
+/* 1920 */
+@media screen and (min-width: 1000px) and (max-width: 1400px) {
+  .glow-on-hover {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    background: #000000;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    border-radius: 100px;
+    align-items: center;
+    left: 38.5%;
+    top: 15%;
+    margin-bottom: 5px;
+}
+}
 
 
 .glow-on-hover:before {
@@ -251,6 +270,18 @@ p {
     font-size: 25px;
   }
 }
+/* 1920 */
+@media screen and (min-width: 1000px) and (max-width: 1400px) {
+  .contact2 {
+    word-break: break-all; 
+    position: absolute;
+    top: 42%;
+    left: -1.5%;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+  }
+}
 
 
 .contact3 {
@@ -289,6 +320,15 @@ p {
     left: 10%;
   }
 }
+/* 1920 */
+@media screen and (min-width: 1000px) and (max-width: 1400px) {
+  .gmaillogo {
+    z-index: 0;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+  }
+}
 
 .linkedinlogo {
   z-index: 0;
@@ -304,6 +344,15 @@ p {
     left: 10%;
   }
 }
+/* 1920 */
+@media screen and (min-width: 1000px) and (max-width: 1400px) {
+  .linkedinlogo {
+    z-index: 0;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+  }
+}
 
 .githublogo {
   z-index: 0;
@@ -317,6 +366,15 @@ p {
     position: absolute;
     top: 58%;
     left: 10%;
+  }
+}
+/* 1920 */
+@media screen and (min-width: 1000px) and (max-width: 1400px) {
+  .githublogo {
+    z-index: 0;
+    position: absolute;
+    top: 58%;
+    left: 30%;
   }
 }
 
@@ -371,6 +429,15 @@ img {
     left: 13%;
   }
 }
+/* 1920 */
+@media screen and (min-width: 1000px) and (max-width: 1400px) {
+  .coding_logos {
+    z-index: 0;
+    position: absolute;
+    top: 50%;
+    left: 36%;
+  }
+}
 
 
 .project1 {
@@ -413,6 +480,17 @@ img {
     height: 200px;
   }
 }
+/* 1920 */
+@media screen and (min-width: 1000px) and (max-width: 1400px) {
+  .project1 {
+    z-index: 0;
+    position: absolute;
+    top: 30%;
+    left: 2%;
+    width: 300px;
+    height: 300px;
+  }
+}
 .project2 {
   z-index: 0;
   position: absolute;
@@ -451,6 +529,17 @@ img {
     left: 26%;
     width: 200px;
     height: 200px;
+  }
+}
+/* 1920 */
+@media screen and (min-width: 1000px) and (max-width: 1400px) {
+  .project2 {
+    z-index: 0;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    width: 300px;
+    height: 300px;
   }
 }
 .project3 {
@@ -493,6 +582,17 @@ img {
     height: 200px;
   }
 }
+/* 1920 */
+@media screen and (min-width: 1000px) and (max-width: 1400px) {
+  .project3 {
+    z-index: 0;
+    position: absolute;
+    top: 30%;
+    left: 68%;
+    width: 300px;
+    height: 300px;
+  }
+}
 
 .white_backdrop {
   background-image: url("white_backdrop.png");
@@ -515,6 +615,20 @@ img {
     z-index: 0;
     margin-left: 0px;
     margin-right: 40px;
+    margin-top: -10px;
+  }
+}
+/* 1920 */
+@media screen and (min-width: 1000px) and (max-width: 1400px) {
+  .white_backdrop {
+    background-image: url("white_backdrop.png");
+    background-size: 150px;
+    width: 1050px;
+    height: 1000px;
+    position: absolute;
+    z-index: 0;
+    margin-left: -20px;
+    margin-right: 30px;
     margin-top: -10px;
   }
 }
