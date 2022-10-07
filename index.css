@@ -1,4 +1,4 @@
-html,
+/* html,
 body {
 
     <!-- overflow-x: hidden; -->
@@ -12,7 +12,7 @@ body {
     <!-- background-image: url("backdrop.png");
     background-repeat: no-repeat;
     background-size: cover; -->
-}
+} */
 
 .glow-on-hover {
     width: 220px;
@@ -127,8 +127,7 @@ body {
 }
 
 .glow-on-hover:active {
-    color: #ffffff
-
+    color: #ffffff;
     margin: 0;
     padding: 0;
     display: flex;
